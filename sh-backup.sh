@@ -11,9 +11,9 @@
 ########################################################################
 ########################################################################
 # Developed by Store-Host                                              #
-# 				                                                       #
-# Web: https://www.store-host.com                                      #
-# 	This script is distributed in the hope that it will be useful,     #
+# 				                                                           #
+#  Web: https://www.store-host.com                                      #
+# 	This script is distributed in the hope that it will be useful,      #
 #   but WITHOUT ANY WARRANTY; without even the implied warranty of     #
 #   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the      #
 #   GNU General Public License for more details.                       #
@@ -23,13 +23,13 @@
 ########################################################################
 _fist_use=0
 _date=$(date +%C-%B) 						# Erstellt das Datum des Tages
-_destination="DESITNATION-PATH"				# Empferntes Verzeichnis
+_destination="DESITNATION-PATH"		   # Empferntes Verzeichnis
 _current_1="PATH-1"							# Zu Packende Verzeichnis 1
 _current_2="PATH-2"							# Zu Packende Verzeichnis 2
 _current_3="PATH-3"							# Zu Packende Verzeichnis 3
-_current_1_fin=${_current_1////\-}			# Manipulation des Backslash 1
-_current_2_fin=${_current_2////\-}			# Manipulation des Backslash 2
-_current_3_fin=${_current_3////\-}			# Manipulation des Backslash 3
+_current_1_fin=${_current_1////\-}		# Manipulation des Backslash 1
+_current_2_fin=${_current_2////\-}		# Manipulation des Backslash 2
+_current_3_fin=${_current_3////\-}		# Manipulation des Backslash 3
 _scp_server="IP-ADDRESS" 					# FQDN oder IP Adresse Backupserver
 _scp_username="USERNAME"					# Passwort des Users
 _scp_password="PASSWORD"					# FTP Passwort
